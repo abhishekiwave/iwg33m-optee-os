@@ -60,7 +60,7 @@ mx7ulp-flavorlist = \
 
 mx8mq-flavorlist = \
 	mx8mqevk \
-	mx8m_iwg33m
+	mx8m-iwg33m
 
 mx8mm-flavorlist = \
 	mx8mmevk
@@ -329,7 +329,7 @@ CFG_DDR_SIZE ?= 0xc0000000
 CFG_UART_BASE ?= UART1_BASE
 endif
 
-ifneq (,$(filter $(PLATFORM_FLAVOR),mx8m_iwg33m))
+ifneq (,$(filter $(PLATFORM_FLAVOR),mx8m-iwg33m))
 CFG_DDR_SIZE ?= 0x80000000
 CFG_UART_BASE ?= UART1_BASE
 endif
