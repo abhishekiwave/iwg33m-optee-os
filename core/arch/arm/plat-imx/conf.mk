@@ -60,7 +60,7 @@ mx7ulp-flavorlist = \
 
 mx8mq-flavorlist = \
 	mx8mqevk \
-	mx8m-iwg33m
+	mx8m_iwg33m
 
 mx8mm-flavorlist = \
 	mx8mmevk
